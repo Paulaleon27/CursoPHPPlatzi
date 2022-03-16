@@ -1,4 +1,8 @@
 <?php
+/*Una compañía de ventas de carros usados, paga a su personal de ventas un salario de $1000 mensuales,
+más una comisión de $150 por cada carro vendido, más el 5% del valor de la venta por carro.
+cada mes el capturista de la empresa ingresa en la computadora los datos pertinentes.
+hacer un programa que calcule e imprima el salario mensual de un vendedor dado.*/
 
 $nombre_empleado = $_REQUEST["nombre_empleado"];
 $horas_semana_1 = $_REQUEST["horas_semana_1"];

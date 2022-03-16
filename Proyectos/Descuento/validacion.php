@@ -1,5 +1,9 @@
 <?php
 
+/*En una tienda hay descuento del 35% en todos sus productos, 
+	debes realizar una función que reciba el valor de cada producto y le reste
+	el 35% para mostrar su valor original y en cuánto queda su nuevo valor a pagar*/ 
+
 $prenda = array(1,2,3);
 $valorPrenda = 0;
 $porcentajeDescuento = 0.35;
