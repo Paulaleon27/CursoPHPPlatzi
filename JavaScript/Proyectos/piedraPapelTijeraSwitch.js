@@ -1,6 +1,3 @@
-var elementoUsuario = 'piedra';
-
-
 function jugar(elementoUsuario){ 
     var elementos = ['Piedra','Papel','Tijera'];
     var elegirElemento = Math.floor(Math.random()*elementos.length);
@@ -30,29 +27,4 @@ function jugar(elementoUsuario){
     }
 }
 
-/*switch(elementoUsuario){
-    case 'piedra':
-        console.log("El usuario sacó: "+ elementoUsuario);
-        console.log("El pc sacó: "+ elementoPc);
-        console.log("Ganó el usuario!");
-        break;
-    case 'papel': 
-        console.log("El usuario sacó: "+ elementoUsuario);
-        console.log("El pc sacó: "+ elementoPc);
-        console.log("Ganó el pc!");
-        break;
-    case 'tijera': 
-        console.log("El usuario sacó: "+ elementoUsuario);
-        console.log("El pc sacó: "+ elementoPc);
-        console.log("Ganó el pc!");
-        break;
-    case elementoUsuario == elementoPc:
-        console.log("El usuario sacó: "+ elementoUsuario);
-        console.log("El pc sacó: "+ elementoPc);
-        console.log("Hay un empate!");
-        break;
-    default:
-        console.log("El usuario sacó: "+ elementoUsuario);
-        console.log("Ingrese un elemento correcto");
-}*/
-
+jugar ('piedra');
